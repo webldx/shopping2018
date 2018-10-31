@@ -1,0 +1,301 @@
+/*css初始化*/
+
+body,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+p,
+dl,
+dt,
+dd,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 0 none;
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+.w {
+    width: 12.55rem;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+input {
+    outline: none;
+    border: 1px solid #e1e1e1;
+    padding-left: .2rem;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.red {
+    color: red;
+}
+
+.fff {
+    color: #fff;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+html {
+    font-size: 100px;
+}
+
+body {
+    margin: 0;
+    font-size: 0.14rem;
+    background-color: #f5f5f5;
+    /* background-color: rgb(219, 219, 219); */
+    /* color: rgb(173, 169, 169); */
+}
+
+* {
+    box-sizing: border-box;
+    font-size: .16rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 顶部样式 */
+
+.header-box {
+    width: 100%;
+    background-color: #323232;
+}
+
+header {
+    font-size: .18rem;
+    height: 0.40rem;
+    line-height: 0.28rem;
+    padding-top: 5px;
+}
+
+header span {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 .22rem;
+    color: #fff;
+}
+
+header span:not(:nth-child(3)) {
+    border-right: 2px solid #bbb;
+}
+
+
+/* 顶部样式 */
+
+
+/* 底部样式 */
+
+.about {
+    height: 2.40rem;
+    width: 100%;
+    margin: 1.26rem auto 0;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: .20rem;
+}
+
+.about ul {
+    float: left;
+    width: 2.50rem;
+    flex-shrink: 100;
+    height: 2.00rem;
+    list-style: none;
+}
+
+.about ul li {
+    margin: .10rem 0;
+    color: #3a3a3a;
+    cursor: pointer;
+    font-size: .16rem;
+}
+
+.about ul li:first-child {
+    font-weight: bold;
+    color: #000000;
+}
+
+.about ul li img {
+    float: left;
+    margin: 0 .20rem;
+}
+
+.about ul:last-child li:last-child {
+    height: .63rem;
+}
+
+.about ul:last-child li:last-child img {
+    float: left;
+    margin: 0 .20rem;
+}
+
+.erweima>.diyi {
+    float: left;
+}
+
+.diyi .wenzi {
+    font-size: .15rem;
+    font-weight: bold;
+}
+
+.erweima>.cs {
+    margin-right: .25rem;
+}
+
+.erweima img {
+    width: 0.76rem;
+}
+
+.footer {
+    height: .70rem;
+    background: #323232;
+    position: relative;
+}
+
+.footer ul {
+    width: 5.00rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.footer ul li {
+    float: left;
+    color: #fff;
+    list-style: none;
+    line-height: .70rem;
+    text-align: center;
+}
+
+.footer ul li a {
+    border-right: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 .20rem;
+}
+
+
+/* 底部样式 */
+
+.active {
+    color: #ff6701;
+}
+
+.activeborder {
+    border: 1px solid #ff6701;
+}
+
+.activebg {
+    background-color: #ff6701;
+}
+
+
+/* 搜索框 */
+
+.topSearchBox {
+    text-align: center;
+    background-color: #fff;
+}
+
+.topSearchBox>div:first-child {
+    font-size: 0rem;
+    margin: .4rem 0;
+}
+
+.topSearchBox>div input {
+    width: 4.83rem;
+    height: 0.5rem;
+    outline: none;
+    background-color: #f5f5f5;
+    padding-left: .2rem;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+}
+
+.topSearchBox>div .searchBtn {
+    display: inline-block;
+    height: 0.5rem;
+    line-height: .5rem;
+    width: 0.66rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.topSearchBox .navBox {
+    display: flex;
+    height: .6rem;
+    line-height: .6rem;
+    font-size: .16rem;
+    background-color: #fff;
+}
+
+.topSearchBox .navBox img {
+    width: 1.75rem;
+}
+
+.topSearchBox .navBox a {
+    height: .6rem;
+    line-height: .6rem;
+    font-size: .16rem;
+    margin: 0 .21rem;
+}
+
+.topSearchBox .navBox span {
+    margin-left: .2rem;
+}
+
+
+/* 搜索框 */
