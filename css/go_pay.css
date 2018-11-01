@@ -208,3 +208,43 @@ input[type="text"] {
   border-radius: 5px;
   margin: 1.1rem 0 .7rem;
 }
+.unionpay_pay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 8.4rem;
+  height: 4.9rem;
+  border-radius: 8px;
+  border: 2px solid #fe6900;
+  background-color: #fff;
+}
+.unionpay_pay > p {
+  text-align: center;
+  margin: .2rem 0 .25rem;
+}
+.unionpay_pay .one {
+  width: 100%;
+  margin-bottom: .22rem;
+}
+.unionpay_pay .one input[type="text"] {
+  width: 3rem;
+}
+.unionpay_pay .one span:first-child {
+  display: inline-block;
+  text-align: right;
+  width: 3rem;
+  margin-right: .20rem;
+}
+.night {
+  padding-left: 3.3rem;
+}
+.yes {
+  display: inline-block;
+  width: 1.84rem;
+  height: 0.4rem;
+  line-height: .4rem;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+}
