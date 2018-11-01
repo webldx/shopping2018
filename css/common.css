@@ -37,7 +37,7 @@ h6 {
 }
 
 .w {
-    width: 12.55rem;
+    width: 12.50rem;
     margin: 0 auto;
 }
 
@@ -114,22 +114,22 @@ ul {
     background-color: #323232;
 }
 
-header {
-    font-size: .18rem;
-    height: 0.40rem;
-    line-height: 0.28rem;
-    padding-top: 5px;
-}
-
 header span {
     cursor: pointer;
     display: inline-block;
     padding: 0 .22rem;
     color: #fff;
+    font-size: .2rem;
 }
 
-header span:not(:nth-child(3)) {
-    border-right: 2px solid #bbb;
+.header-box header .right span {
+    color: #ff6701;
+}
+
+header {
+    font-size: .18rem;
+    height: 0.70rem;
+    line-height: 0.7rem;
 }
 
 
@@ -200,6 +200,8 @@ header span:not(:nth-child(3)) {
     width: 0.76rem;
 }
 
+
+/* 
 .footer {
     height: .70rem;
     background: #323232;
@@ -225,7 +227,7 @@ header span:not(:nth-child(3)) {
     color: #fff;
     text-decoration: none;
     padding: 0 .20rem;
-}
+} */
 
 
 /* 底部样式 */
@@ -243,59 +245,28 @@ header span:not(:nth-child(3)) {
 }
 
 
-/* 搜索框 */
+/* 底部样式 */
 
-.topSearchBox {
+.footer {
     text-align: center;
+    height: 2.87rem;
     background-color: #fff;
+    box-shadow: 0px -4px 14px #8C8C8C;
 }
 
-.topSearchBox>div:first-child {
-    font-size: 0rem;
-    margin: .4rem 0;
+.contact_us {
+    padding-top: .5rem;
+    padding-bottom: .26rem;
+    font-size: .18rem;
 }
 
-.topSearchBox>div input {
-    width: 4.83rem;
-    height: 0.5rem;
-    outline: none;
-    background-color: #f5f5f5;
-    padding-left: .2rem;
-    vertical-align: middle;
-    border: 1px solid #ccc;
+.tel {
+    color: #cb3822;
+    margin-bottom: .15rem;
 }
 
-.topSearchBox>div .searchBtn {
-    display: inline-block;
-    height: 0.5rem;
-    line-height: .5rem;
-    width: 0.66rem;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.topSearchBox .navBox {
+.qr_code_box {
     display: flex;
-    height: .6rem;
-    line-height: .6rem;
-    font-size: .16rem;
-    background-color: #fff;
+    align-items: center;
+    justify-content: center;
 }
-
-.topSearchBox .navBox img {
-    width: 1.75rem;
-}
-
-.topSearchBox .navBox a {
-    height: .6rem;
-    line-height: .6rem;
-    font-size: .16rem;
-    margin: 0 .21rem;
-}
-
-.topSearchBox .navBox span {
-    margin-left: .2rem;
-}
-
-
-/* 搜索框 */
