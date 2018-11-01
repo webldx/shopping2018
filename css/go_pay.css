@@ -1,0 +1,146 @@
+body {
+  background-color: #f5f5f5;
+}
+input[type="text"] {
+  width: 1.52rem;
+  height: 0.28rem;
+  background-color: #f5f5f5;
+}
+.content {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 9.26rem;
+  border: 1px dashed #fe6900;
+  border-radius: 5px;
+  margin: 1.18rem 0 1.38rem;
+  padding: .27rem .38rem;
+  background-color: #fff;
+  display: flex;
+}
+.content h2 {
+  font-size: .24rem;
+  margin-bottom: .4rem;
+}
+.content .left_box {
+  width: 7.1rem;
+  border-right: 2px solid #ddd;
+  padding-right: .1rem;
+}
+.content .left_box .goods_list_box {
+  width: 100%;
+  height: 1.03rem;
+  overflow-y: scroll;
+}
+.content .left_box .goods_list_box::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width: 4px;
+  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 4px;
+}
+.content .left_box .goods_list_box::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.2);
+}
+.content .left_box .goods_list_box::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+.content .left_box .goods_list_box .goods_info:not(:last-child) {
+  margin-bottom: .2rem;
+}
+.content .left_box .goods_list_box .goods_info {
+  display: flex;
+  justify-content: space-around;
+}
+.content .left_box .goods_list_box .goods_info .goods_name {
+  display: inline-block;
+  width: 2rem;
+}
+.content .left_box .goods_list_box .goods_info .goods_num {
+  display: inline-block;
+  width: 1rem;
+}
+.content .left_box .goods_all {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 .6rem;
+  margin-top: .4rem;
+  margin-bottom: .2rem;
+}
+.content .left_box .goods_all .goods_num,
+.content .left_box .goods_all .goods_price {
+  font-size: .18rem;
+}
+.content .left_box .invoice_info {
+  padding: 0 .6rem;
+  margin-bottom: .4rem;
+}
+.content .left_box .invoice_info .invoice_type {
+  margin-bottom: .26rem;
+}
+.content .left_box .invoice_info .invoice_type span {
+  margin-right: .4rem;
+}
+.content .left_box .invoice_info .invoice_type input {
+  margin-right: .2rem;
+}
+.content .left_box .invoice_info .invoice_type i {
+  margin-right: .4rem;
+}
+.content .left_box .invoice_info .up_hand_box span {
+  margin-right: .4rem;
+}
+.content .left_box .address_box {
+  margin-bottom: .3rem;
+  padding: 0 .6rem;
+}
+.content .left_box .address_box i {
+  margin-right: .15rem;
+}
+.content .left_box .address_box input {
+  margin-right: .45rem;
+}
+.content .left_box .address_box .address_info {
+  resize: none;
+  width: 5.95rem;
+  height: 0.85rem;
+  padding: .2rem;
+  border-radius: 5px;
+  outline: none;
+}
+.content .left_box .remarks {
+  resize: none;
+  width: 5.95rem;
+  height: 1.26rem;
+  padding: .2rem;
+  border-radius: 5px;
+  margin-left: .6rem;
+}
+.content .right_box {
+  margin: 0 auto;
+}
+.content .right_box h2 {
+  margin-left: .42rem;
+}
+.content .right_box input {
+  margin: 0 .3rem .2rem .8rem;
+}
+.content .right_box a {
+  display: block;
+  width: 2rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  text-align: center;
+  border-radius: 6px;
+  margin: 6.12rem 0 0 1.7rem;
+}
+.pay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>支付页</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/go_pay.css">
+    <script src="../js/commonjs/jquery-1.12.4.min.js"></script>
+    <script src="../js/commonjs/jquery.qrcode.min.js"></script>
+    <script src="../js/commonjs/qrcode.js"></script>
+    <script src="../js/commonjs/md5.js"></script>
+    <script src="../js/commonjs/resize.js"></script>
+    <script src="../js/commonjs/timer.js"></script>
+    <script src="../js/commonjs/axios.min.js"></script>
+    <script src="../js/commonjs/back-history.js"></script>
+    <script src="../js/commonjs/base64.js"></script>
+    <script src="../js/commonjs/error.js"></script>
+    <script src="../js/commonjs/layer-v3.1.0/layer/layer.js"></script>
+    <script src="../js/commonjs/artTemplate/template-native.js"></script>
+    <script src="../js/commonjs/random-color.js"></script>
+</head>
+
+<body>
+    <div class="header-box">
+        <header class="w clearfix">
+            <div class="fl">
+                <span>七小福&唐合易诚</span>
+            </div>
+            <div class="fr right">
+                <span>登录</span>
+                <span>注册</span>
+                <span>知识库</span>
+            </div>
+        </header>
+    </div>
+    <div class="w">
+        <div class="content">
+            <div class="left_box">
+                <h2 class="active">账单信息</h2>
+                <div class="goods_list_box">
+                    <div class="goods_info">
+                        <span class="goods_name">天王盖地虎</span>
+                        <span class="goods_num">*12</span>
+                        <span class="goods_price active">213123</span>
+                    </div>
+                    <div class="goods_info">
+                        <span class="goods_name">天王asdas盖地虎</span>
+                        <span class="goods_num">*1asd2</span>
+                        <span class="goods_price active">213123</span>
+                    </div>
+                    <div class="goods_info">
+                        <span class="goods_name">天王盖地虎</span>
+                        <span class="goods_num">*12</span>
+                        <span class="goods_price active">213123</span>
+                    </div>
+                    <div class="goods_info">
+                        <span class="goods_name">天王盖地虎</span>
+                        <span class="goods_num">*12</span>
+                        <span class="goods_price active">213123</span>
+                    </div>
+                    <div class="goods_info">
+                        <span class="goods_name">天王盖地虎</span>
+                        <span class="goods_num">*12</span>
+                        <span class="goods_price active">213123</span>
+                    </div>
+                </div>
+                <div class="goods_all">
+                    <span>共 <i class="goods_num">3</i> 件</span>
+                    <span>合计：￥<i class="goods_price">9999</i></span>
+                </div>
+                <h2 class="active">发票信息</h2>
+                <div class="invoice_info">
+                    <div class="invoice_type">
+                        <span>类型:</span>
+                        <input name="type" type="radio"><i>个人</i>
+                        <input name="type" type="radio">单位
+                    </div>
+                    <div class="up_hand_box">
+                        <span>抬头:</span>
+                        <input type="text" class="up_hand_ipt">
+                    </div>
+                </div>
+                <h2 class="active">收货地址</h2>
+                <div class="address_box">
+                    <div class="address_self">
+                        <i>收货人:</i>
+                        <input class="name" type="text">
+                        <i>联系方式:</i>
+                        <input class="tel" type="text">
+                    </div>
+                    <textarea class="address_info" name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <h2 class="active">备注</h2>
+                <textarea class="remarks" name="" id="" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="right_box">
+                <h2 class="active">支付方式：</h2>
+                <input name="pay_typt" type="radio">
+                <span>支付宝支付</span>
+                <input name="pay_typt" type="radio">
+                <span>微信支付</span>
+                <input name="pay_typt" type="radio">
+                <span>银联支付</span>
+                <a href="javascript:;" class="activebg submit_order fff">提交订单</a>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <script src="../common/footer.js"></script>
+    </footer>
+
+    <!-- 支付的弹框 -->
+    <div class="pay">
+        <p>支付</p>
+        <p>请打开支付宝--扫码支付</p>
+        <img src="../images/A_icon.png" alt="">
+        <a href="javascript:;">更换支付方式</a>
+    </div>
+</body>
+
+</html>
