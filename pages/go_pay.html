@@ -113,13 +113,31 @@
         <script src="../common/footer.js"></script>
     </footer>
 
+    <!-- 遮罩层 -->
+    <div class="lid"></div>
+    <!-- 关闭按钮 -->
+    <img class="close" src="../images/close.png" alt="">
     <!-- 支付的弹框 -->
     <div class="pay">
-        <p>支付</p>
+        <p class="active">支付</p>
         <p>请打开支付宝--扫码支付</p>
         <img src="../images/A_icon.png" alt="">
-        <a href="javascript:;">更换支付方式</a>
+        <a class="active edit_submit_type" href="javascript:;">更换支付方式</a>
+    </div>
+    <!-- 选择支付方式 -->
+    <div class="edit_pay_type">
+        <p class="active">选择支付方式</p>
+        <input type="radio" name="pay_typt" id="">
+        <i>支付宝支付</i>
+        <input type="radio" name="pay_typt" id="">
+        <i>微信支付</i>
+        <input type="radio" name="pay_typt" id="">
+        <i>银联支付</i>
+        <div>
+            <a class="paybtn fff activebg" href="javascript:;">支付</a>
+        </div>
     </div>
 </body>
+<script src="../js/pagejs/go_pay.js"></script>
 
 </html>
