@@ -90,6 +90,10 @@ body {
     /* color: rgb(173, 169, 169); */
 }
 
+body * {
+    box-sizing: border-box;
+}
+
 * {
     box-sizing: border-box;
     font-size: .16rem;
@@ -112,6 +116,7 @@ ul {
 .header-box {
     width: 100%;
     background-color: #323232;
+    box-shadow: -2px 4px 14px #9C9C9C;
 }
 
 header span {
@@ -269,4 +274,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.qr_code_box img {
+    width: 0.76rem;
 }

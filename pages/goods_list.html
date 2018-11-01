@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>列表页</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/goods_list.css">
+    <script src="../js/commonjs/jquery-1.12.4.min.js"></script>
+    <script src="../js/commonjs/jquery.qrcode.min.js"></script>
+    <script src="../js/commonjs/qrcode.js"></script>
+    <script src="../js/commonjs/md5.js"></script>
+    <script src="../js/commonjs/resize.js"></script>
+    <script src="../js/commonjs/timer.js"></script>
+    <script src="../js/commonjs/axios.min.js"></script>
+    <script src="../js/commonjs/back-history.js"></script>
+    <script src="../js/commonjs/base64.js"></script>
+    <script src="../js/commonjs/error.js"></script>
+    <script src="../js/commonjs/layer-v3.1.0/layer/layer.js"></script>
+    <script src="../js/commonjs/artTemplate/template-native.js"></script>
+    <script src="../js/commonjs/random-color.js"></script>
+    <style>
+        body {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header-box">
+        <header class="w clearfix">
+            <div class="fl">
+                <span>七小福&唐合易诚</span>
+            </div>
+            <div class="fr right">
+                <span>登录</span>
+                <span>注册</span>
+                <span>知识库</span>
+            </div>
+        </header>
+    </div>
+    <div class="w centerBox clearfix">
+        <div class="topSearchBox clearfix">
+            <span class="list_btn">
+                asd
+                <img src="../images/A_icon.png" alt="">
+            </span>
+            <input class="search_ipt" type="text" placeholder="请输入商品品牌, 名称, 类别搜索">
+            <a href="javascript:;" class="searchBtn activebg">七搜</a>
+        </div>
+        <ul class="fl list">
+            <li><a href="javascript:;">回家啤酒你</a></li>
+            <li><a href="javascript:;">回家啤酒你</a></li>
+            <li><a href="javascript:;">回家啤酒你</a></li>
+            <li><a href="javascript:;">回家啤酒你</a></li>
+            <li><a href="javascript:;">回家啤酒你</a></li>
+            <li><a href="javascript:;">回家啤酒你</a></li>
+            <li><a href="javascript:;">回家啤酒你</a></li>
+            <li><a href="javascript:;">回家啤酒你</a></li>
+            <li><a href="javascript:;">回家啤酒你</a></li>
+            <li><a href="javascript:;">回家啤酒你</a></li>
+            <li><a href="javascript:;">回家啤酒你</a></li>
+            <li><a href="javascript:;">回家啤酒你</a></li>
+        </ul>
+    </div>
+
+    <div class="w content">
+        <ul class="clearfix">
+            <li>首页</li>
+            <li>|</li>
+            <li class="active">备件列表</li>
+        </ul>
+        <div class="clearfix right_parent">
+            <div class="right_list_box fl">
+                <h3 class="active">品 牌 分 类</h3>
+                <ul class="fff ">
+                    <li>
+                        1
+                        <img src="../images/9_03.png" alt="">
+                    </li>
+                    <li>
+                        2
+                        <img src="../images/9_03.png" alt="">
+                    </li>
+                    <li>
+                        3
+                        <img src="../images/9_03.png" alt="">
+                    </li>
+                    <li>
+                        4
+                        <img src="../images/9_03.png" alt="">
+                    </li>
+                    <li>
+                        5
+                        <img src="../images/9_03.png" alt="">
+                    </li>
+                    <li>
+                        6
+                        <img src="../images/9_03.png" alt="">
+                    </li>
+                </ul>
+            </div>
+            <ul class="left_hover_list fl">
+                <li>712112</li>
+                <li>712112</li>
+                <li>712112</li>
+                <li>712112</li>
+                <li>712112</li>
+                <li>712112</li>
+                <li>712112</li>
+                <li>712112</li>
+                <li>712112</li>
+            </ul>
+            <div class="right_box fr">
+                <div class="goods_info">
+                    <span class="fff hot">热品</span>
+                    <img src="../images/product1.png" alt="">
+                    <p class="goods_name">啊大苏打从福建体育</p>
+                    <span class="goods_price"><i>123</i>元</span>
+                    <div class="car_box">
+                        <img src="../images/15_03.gif" alt="">
+                    </div>
+                </div>
+                <div class="goods_info">
+                    <span class="fff hot">热品</span>
+                    <img src="../images/product1.png" alt="">
+                    <p class="goods_name">啊大苏打从福建体育</p>
+                    <span class="goods_price"><i>123</i>元</span>
+                    <div class="car_box">
+                        <img src="../images/15_03.gif" alt="">
+                    </div>
+                </div>
+                <div class="goods_info">
+                    <span class="fff hot">热品</span>
+                    <img src="../images/product1.png" alt="">
+                    <p class="goods_name">啊大苏打从福建体育</p>
+                    <span class="goods_price"><i>123</i>元</span>
+                    <div class="car_box">
+                        <img src="../images/15_03.gif" alt="">
+                    </div>
+                </div>
+                <div class="goods_info">
+                    <span class="fff hot">热品</span>
+                    <img src="../images/product1.png" alt="">
+                    <p class="goods_name">啊大苏打从福建体育</p>
+                    <span class="goods_price"><i>123</i>元</span>
+                    <div class="car_box">
+                        <img src="../images/15_03.gif" alt="">
+                    </div>
+                </div>
+                <div class="goods_info">
+                    <span class="fff hot">热品</span>
+                    <img src="../images/product1.png" alt="">
+                    <p class="goods_name">啊大苏打从福建体育</p>
+                    <span class="goods_price"><i>123</i>元</span>
+                    <div class="car_box">
+                        <img src="../images/15_03.gif" alt="">
+                    </div>
+                </div>
+                <div class="goods_info">
+                    <span class="fff hot">热品</span>
+                    <img src="../images/product1.png" alt="">
+                    <p class="goods_name">啊大苏打从福建体育</p>
+                    <span class="goods_price"><i>123</i>元</span>
+                    <div class="car_box">
+                        <img src="../images/15_03.gif" alt="">
+                    </div>
+                </div>
+                <div class="load_more active">
+                    <a href="javascript:;" class="active">------ 加载更多 -----</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <script src="../common/footer.js"></script>
+    </footer>
+</body>
+<script src="../js/pagejs/goods_list.js"></script>
+
+</html>
